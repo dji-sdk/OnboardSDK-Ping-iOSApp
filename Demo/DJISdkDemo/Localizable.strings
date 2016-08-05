@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GroundStation
+
+  Created by DJI on 13-2-6.
+  Copyright (c) 2013年 Sachsen &  DJI. All rights reserved.
+*/
+
+"cancel" = "Cancel";
+"ok" = "OK";
+"takeoff_control_TakeOff_warning" = "Please make sure the safty before taking off";
+"takeoff_control_takeoff_title" = "Auto Take Off";
+"gohome_control_title"="Auto Go Home";
+"gohome_control_warning"="Please make sure the altitude of aircraft is safe enough before going home!";
+

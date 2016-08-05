@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0250D3CB1D5019EF0085C664 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0250D3C71D5019EF0085C664 /* BebasNeue.otf */; };
+		0250D3CC1D5019EF0085C664 /* Oswald-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0250D3C81D5019EF0085C664 /* Oswald-Bold.otf */; };
+		0250D3CD1D5019EF0085C664 /* Oswald-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0250D3C91D5019EF0085C664 /* Oswald-Light.otf */; };
+		0250D3CE1D5019EF0085C664 /* Oswald.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0250D3CA1D5019EF0085C664 /* Oswald.otf */; };
+		02B8E95E1D416587009A6368 /* ExternalDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B8E95D1D416587009A6368 /* ExternalDeviceManager.m */; };
+		02DADDA41CB83F66008BC317 /* DJIFlightTMRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADD8C1CB83F66008BC317 /* DJIFlightTMRightView.m */; };
+		02DADDA51CB83F66008BC317 /* DJIFlightTMRightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADD8D1CB83F66008BC317 /* DJIFlightTMRightView.xib */; };
+		02DADDA61CB83F66008BC317 /* DJIGSCompassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADD8F1CB83F66008BC317 /* DJIGSCompassButton.m */; };
+		02DADDA71CB83F66008BC317 /* DJIGSControlsViewLeft_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADD901CB83F66008BC317 /* DJIGSControlsViewLeft_iPad.xib */; };
+		02DADDAB1CB83F66008BC317 /* DJIStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADD981CB83F66008BC317 /* DJIStateButton.m */; };
+		02DADDAC1CB83F66008BC317 /* DJIUserLocationView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADD991CB83F66008BC317 /* DJIUserLocationView_iPad.xib */; };
+		02DADDAD1CB83F66008BC317 /* DJIUserLocationView_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADD9A1CB83F66008BC317 /* DJIUserLocationView_iPhone5.xib */; };
+		02DADDAE1CB83F66008BC317 /* DJIUserLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADD9C1CB83F66008BC317 /* DJIUserLocationView.m */; };
+		02DADDAF1CB83F66008BC317 /* DJIBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADD9E1CB83F66008BC317 /* DJIBaseView.m */; };
+		02DADDBE1CB83F7E008BC317 /* DJIAircraftAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDB31CB83F7E008BC317 /* DJIAircraftAnnotation.m */; };
+		02DADDBF1CB83F7E008BC317 /* DJIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDB51CB83F7E008BC317 /* DJIAnnotation.m */; };
+		02DADDC01CB83F7E008BC317 /* DJIHomeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDB71CB83F7E008BC317 /* DJIHomeAnnotation.m */; };
+		02DADDC11CB83F7E008BC317 /* DJIUserAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDB91CB83F7E008BC317 /* DJIUserAnnotation.m */; };
+		02DADDC21CB83F7E008BC317 /* DJIUserAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDBB1CB83F7E008BC317 /* DJIUserAnnotationView.m */; };
+		02DADDC31CB83F7E008BC317 /* ExternalICAOAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDBD1CB83F7E008BC317 /* ExternalICAOAnnotation.m */; };
+		02DADDF61CB84017008BC317 /* DJIFlightTMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADDF51CB84017008BC317 /* DJIFlightTMController.m */; };
+		02DADE251CB840CA008BC317 /* DJICustomsMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADE161CB840CA008BC317 /* DJICustomsMapView.m */; };
+		02DADE261CB840CA008BC317 /* DJIGSMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADE181CB840CA008BC317 /* DJIGSMapView.m */; };
+		02DADE271CB840CA008BC317 /* DJIMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADE1A1CB840CA008BC317 /* DJIMapView.m */; };
+		02DADE2C1CB840CA008BC317 /* MKMapView+DJI.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DADE241CB840CA008BC317 /* MKMapView+DJI.m */; };
+		02DADE311CB84114008BC317 /* DJIFlightTMController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADE2D1CB84114008BC317 /* DJIFlightTMController_iPad.xib */; };
+		02DADE321CB84114008BC317 /* DJIFlightTMController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADE2E1CB84114008BC317 /* DJIFlightTMController_iPhone5.xib */; };
+		02DADE331CB84114008BC317 /* DJIFlightTMController_iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADE2F1CB84114008BC317 /* DJIFlightTMController_iPhone6.xib */; };
+		02DADE341CB84114008BC317 /* DJIFlightTMController_iPhone6+.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DADE301CB84114008BC317 /* DJIFlightTMController_iPhone6+.xib */; };
+		02DADFDE1CB882AF008BC317 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02DADFDD1CB882AF008BC317 /* Localizable.strings */; };
+		3B16A8EC19D12167008C1818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B16A8EB19D12167008C1818 /* Foundation.framework */; };
+		3B16A8EE19D12167008C1818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B16A8ED19D12167008C1818 /* CoreGraphics.framework */; };
+		3B16A8F019D12167008C1818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B16A8EF19D12167008C1818 /* UIKit.framework */; };
+		3B16A8F619D12167008C1818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B16A8F419D12167008C1818 /* InfoPlist.strings */; };
+		3B16A8F819D12167008C1818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B16A8F719D12167008C1818 /* main.m */; };
+		3B16A8FC19D12167008C1818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B16A8FB19D12167008C1818 /* AppDelegate.m */; };
+		3B16A8FE19D12167008C1818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B16A8FD19D12167008C1818 /* Images.xcassets */; };
+		3B16A9DD19D121C8008C1818 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B16A9DC19D121C8008C1818 /* libz.dylib */; };
+		3B4AEB871AB848A000CF4031 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4AEB861AB848A000CF4031 /* libstdc++.6.0.9.dylib */; };
+		3B628ABE1AEE0BC60079AF13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B628ABD1AEE0BC60079AF13 /* MapKit.framework */; };
+		3B628AC81AEE2AF90079AF13 /* aircraft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B628AC71AEE2AF90079AF13 /* aircraft@2x.png */; };
+		3BF0597B1BB255BD00F21C88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF0597A1BB255BD00F21C88 /* LaunchScreen.xib */; };
+		B821D41B1C316B530014ADBD /* DJIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B821D4191C316B530014ADBD /* DJIRootViewController.m */; };
+		B821D41C1C316B530014ADBD /* DJIRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B821D41A1C316B530014ADBD /* DJIRootViewController.xib */; };
+		B82541F91C98E8450021CDDF /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82541F81C98E8450021CDDF /* DJISDK.framework */; };
+		B82542041C98E8F00021CDDF /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82541F81C98E8450021CDDF /* DJISDK.framework */; };
+		B82542051C98E8F00021CDDF /* DJISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B82541F81C98E8450021CDDF /* DJISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4FE84ED1BD8CEF600E51FB4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B82542051C98E8F00021CDDF /* DJISDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0250D3C71D5019EF0085C664 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		0250D3C81D5019EF0085C664 /* Oswald-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.otf"; sourceTree = "<group>"; };
+		0250D3C91D5019EF0085C664 /* Oswald-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.otf"; sourceTree = "<group>"; };
+		0250D3CA1D5019EF0085C664 /* Oswald.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oswald.otf; sourceTree = "<group>"; };
+		02B8E95C1D416587009A6368 /* ExternalDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalDeviceManager.h; sourceTree = "<group>"; };
+		02B8E95D1D416587009A6368 /* ExternalDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalDeviceManager.m; sourceTree = "<group>"; };
+		02DADD721CB83F3F008BC317 /* AppGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppGlobal.h; path = FlightTrafficManagement/Utils/AppGlobal.h; sourceTree = "<group>"; };
+		02DADD8B1CB83F66008BC317 /* DJIFlightTMRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIFlightTMRightView.h; path = FlightTrafficManagement/UIView/DJIFlightTMRightView.h; sourceTree = "<group>"; };
+		02DADD8C1CB83F66008BC317 /* DJIFlightTMRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIFlightTMRightView.m; path = FlightTrafficManagement/UIView/DJIFlightTMRightView.m; sourceTree = "<group>"; };
+		02DADD8D1CB83F66008BC317 /* DJIFlightTMRightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIFlightTMRightView.xib; path = FlightTrafficManagement/UIView/DJIFlightTMRightView.xib; sourceTree = "<group>"; };
+		02DADD8E1CB83F66008BC317 /* DJIGSCompassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIGSCompassButton.h; path = FlightTrafficManagement/UIView/DJIGSCompassButton.h; sourceTree = "<group>"; };
+		02DADD8F1CB83F66008BC317 /* DJIGSCompassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIGSCompassButton.m; path = FlightTrafficManagement/UIView/DJIGSCompassButton.m; sourceTree = "<group>"; };
+		02DADD901CB83F66008BC317 /* DJIGSControlsViewLeft_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIGSControlsViewLeft_iPad.xib; path = FlightTrafficManagement/UIView/DJIGSControlsViewLeft_iPad.xib; sourceTree = "<group>"; };
+		02DADD971CB83F66008BC317 /* DJIStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIStateButton.h; path = FlightTrafficManagement/UIView/DJIStateButton.h; sourceTree = "<group>"; };
+		02DADD981CB83F66008BC317 /* DJIStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIStateButton.m; path = FlightTrafficManagement/UIView/DJIStateButton.m; sourceTree = "<group>"; };
+		02DADD991CB83F66008BC317 /* DJIUserLocationView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIUserLocationView_iPad.xib; path = FlightTrafficManagement/UIView/DJIUserLocationView_iPad.xib; sourceTree = "<group>"; };
+		02DADD9A1CB83F66008BC317 /* DJIUserLocationView_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIUserLocationView_iPhone5.xib; path = FlightTrafficManagement/UIView/DJIUserLocationView_iPhone5.xib; sourceTree = "<group>"; };
+		02DADD9B1CB83F66008BC317 /* DJIUserLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIUserLocationView.h; path = FlightTrafficManagement/UIView/DJIUserLocationView.h; sourceTree = "<group>"; };
+		02DADD9C1CB83F66008BC317 /* DJIUserLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIUserLocationView.m; path = FlightTrafficManagement/UIView/DJIUserLocationView.m; sourceTree = "<group>"; };
+		02DADD9D1CB83F66008BC317 /* DJIBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIBaseView.h; path = FlightTrafficManagement/UIView/DJIBaseView.h; sourceTree = "<group>"; };
+		02DADD9E1CB83F66008BC317 /* DJIBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIBaseView.m; path = FlightTrafficManagement/UIView/DJIBaseView.m; sourceTree = "<group>"; };
+		02DADDB21CB83F7E008BC317 /* DJIAircraftAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIAircraftAnnotation.h; path = FlightTrafficManagement/Annotation/DJIAircraftAnnotation.h; sourceTree = "<group>"; };
+		02DADDB31CB83F7E008BC317 /* DJIAircraftAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIAircraftAnnotation.m; path = FlightTrafficManagement/Annotation/DJIAircraftAnnotation.m; sourceTree = "<group>"; };
+		02DADDB41CB83F7E008BC317 /* DJIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIAnnotation.h; path = FlightTrafficManagement/Annotation/DJIAnnotation.h; sourceTree = "<group>"; };
+		02DADDB51CB83F7E008BC317 /* DJIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIAnnotation.m; path = FlightTrafficManagement/Annotation/DJIAnnotation.m; sourceTree = "<group>"; };
+		02DADDB61CB83F7E008BC317 /* DJIHomeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIHomeAnnotation.h; path = FlightTrafficManagement/Annotation/DJIHomeAnnotation.h; sourceTree = "<group>"; };
+		02DADDB71CB83F7E008BC317 /* DJIHomeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIHomeAnnotation.m; path = FlightTrafficManagement/Annotation/DJIHomeAnnotation.m; sourceTree = "<group>"; };
+		02DADDB81CB83F7E008BC317 /* DJIUserAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIUserAnnotation.h; path = FlightTrafficManagement/Annotation/DJIUserAnnotation.h; sourceTree = "<group>"; };
+		02DADDB91CB83F7E008BC317 /* DJIUserAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIUserAnnotation.m; path = FlightTrafficManagement/Annotation/DJIUserAnnotation.m; sourceTree = "<group>"; };
+		02DADDBA1CB83F7E008BC317 /* DJIUserAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIUserAnnotationView.h; path = FlightTrafficManagement/Annotation/DJIUserAnnotationView.h; sourceTree = "<group>"; };
+		02DADDBB1CB83F7E008BC317 /* DJIUserAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIUserAnnotationView.m; path = FlightTrafficManagement/Annotation/DJIUserAnnotationView.m; sourceTree = "<group>"; };
+		02DADDBC1CB83F7E008BC317 /* ExternalICAOAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExternalICAOAnnotation.h; path = FlightTrafficManagement/Annotation/ExternalICAOAnnotation.h; sourceTree = "<group>"; };
+		02DADDBD1CB83F7E008BC317 /* ExternalICAOAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExternalICAOAnnotation.m; path = FlightTrafficManagement/Annotation/ExternalICAOAnnotation.m; sourceTree = "<group>"; };
+		02DADDF41CB84017008BC317 /* DJIFlightTMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIFlightTMController.h; path = FlightTrafficManagement/DJIFlightTMController.h; sourceTree = "<group>"; };
+		02DADDF51CB84017008BC317 /* DJIFlightTMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIFlightTMController.m; path = FlightTrafficManagement/DJIFlightTMController.m; sourceTree = "<group>"; };
+		02DADE151CB840CA008BC317 /* DJICustomsMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJICustomsMapView.h; sourceTree = "<group>"; };
+		02DADE161CB840CA008BC317 /* DJICustomsMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJICustomsMapView.m; sourceTree = "<group>"; };
+		02DADE171CB840CA008BC317 /* DJIGSMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIGSMapView.h; sourceTree = "<group>"; };
+		02DADE181CB840CA008BC317 /* DJIGSMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJIGSMapView.m; sourceTree = "<group>"; };
+		02DADE191CB840CA008BC317 /* DJIMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIMapView.h; sourceTree = "<group>"; };
+		02DADE1A1CB840CA008BC317 /* DJIMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJIMapView.m; sourceTree = "<group>"; };
+		02DADE231CB840CA008BC317 /* MKMapView+DJI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+DJI.h"; sourceTree = "<group>"; };
+		02DADE241CB840CA008BC317 /* MKMapView+DJI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+DJI.m"; sourceTree = "<group>"; };
+		02DADE2D1CB84114008BC317 /* DJIFlightTMController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIFlightTMController_iPad.xib; path = FlightTrafficManagement/DJIFlightTMController_iPad.xib; sourceTree = "<group>"; };
+		02DADE2E1CB84114008BC317 /* DJIFlightTMController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIFlightTMController_iPhone5.xib; path = FlightTrafficManagement/DJIFlightTMController_iPhone5.xib; sourceTree = "<group>"; };
+		02DADE2F1CB84114008BC317 /* DJIFlightTMController_iPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIFlightTMController_iPhone6.xib; path = FlightTrafficManagement/DJIFlightTMController_iPhone6.xib; sourceTree = "<group>"; };
+		02DADE301CB84114008BC317 /* DJIFlightTMController_iPhone6+.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "DJIFlightTMController_iPhone6+.xib"; path = "FlightTrafficManagement/DJIFlightTMController_iPhone6+.xib"; sourceTree = "<group>"; };
+		02DADFDD1CB882AF008BC317 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3B16A8E819D12167008C1818 /* DJISdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJISdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B16A8EB19D12167008C1818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B16A8ED19D12167008C1818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B16A8EF19D12167008C1818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B16A8F319D12167008C1818 /* DJISdkDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJISdkDemo-Info.plist"; sourceTree = "<group>"; };
+		3B16A8F519D12167008C1818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B16A8F719D12167008C1818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B16A8F919D12167008C1818 /* DJISdkDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DJISdkDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3B16A8FA19D12167008C1818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3B16A8FB19D12167008C1818 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3B16A8FD19D12167008C1818 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B16A9DC19D121C8008C1818 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3B4AEB861AB848A000CF4031 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		3B628ABD1AEE0BC60079AF13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3B628AC71AEE2AF90079AF13 /* aircraft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aircraft@2x.png"; sourceTree = "<group>"; };
+		3BF0597A1BB255BD00F21C88 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
+		B821D4181C316B530014ADBD /* DJIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIRootViewController.h; path = Startup/DJIRootViewController.h; sourceTree = "<group>"; };
+		B821D4191C316B530014ADBD /* DJIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DJIRootViewController.m; path = Startup/DJIRootViewController.m; sourceTree = "<group>"; };
+		B821D41A1C316B530014ADBD /* DJIRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DJIRootViewController.xib; path = Startup/DJIRootViewController.xib; sourceTree = "<group>"; };
+		B82541F81C98E8450021CDDF /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../DJISDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B16A8E519D12167008C1818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B628ABE1AEE0BC60079AF13 /* MapKit.framework in Frameworks */,
+				B82541F91C98E8450021CDDF /* DJISDK.framework in Frameworks */,
+				3B4AEB871AB848A000CF4031 /* libstdc++.6.0.9.dylib in Frameworks */,
+				3B16A9DD19D121C8008C1818 /* libz.dylib in Frameworks */,
+				3B16A8EE19D12167008C1818 /* CoreGraphics.framework in Frameworks */,
+				B82542041C98E8F00021CDDF /* DJISDK.framework in Frameworks */,
+				3B16A8F019D12167008C1818 /* UIKit.framework in Frameworks */,
+				3B16A8EC19D12167008C1818 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DADCDA1CB6F13F008BC317 /* FlightTrafficManagement */ = {
+			isa = PBXGroup;
+			children = (
+				02DADE351CB84DAE008BC317 /* Resources */,
+				02DADE2D1CB84114008BC317 /* DJIFlightTMController_iPad.xib */,
+				02DADE2E1CB84114008BC317 /* DJIFlightTMController_iPhone5.xib */,
+				02DADE2F1CB84114008BC317 /* DJIFlightTMController_iPhone6.xib */,
+				02DADE301CB84114008BC317 /* DJIFlightTMController_iPhone6+.xib */,
+				02DADE141CB840CA008BC317 /* MapView */,
+				02DADDF41CB84017008BC317 /* DJIFlightTMController.h */,
+				02DADDF51CB84017008BC317 /* DJIFlightTMController.m */,
+				02DADD111CB70021008BC317 /* Utils */,
+				02DADD0D1CB6FC72008BC317 /* UIView */,
+				02DADD071CB6F8DA008BC317 /* Annotation */,
+			);
+			name = FlightTrafficManagement;
+			sourceTree = "<group>";
+		};
+		02DADD071CB6F8DA008BC317 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				02DADDB21CB83F7E008BC317 /* DJIAircraftAnnotation.h */,
+				02DADDB31CB83F7E008BC317 /* DJIAircraftAnnotation.m */,
+				02DADDB41CB83F7E008BC317 /* DJIAnnotation.h */,
+				02DADDB51CB83F7E008BC317 /* DJIAnnotation.m */,
+				02DADDB61CB83F7E008BC317 /* DJIHomeAnnotation.h */,
+				02DADDB71CB83F7E008BC317 /* DJIHomeAnnotation.m */,
+				02DADDB81CB83F7E008BC317 /* DJIUserAnnotation.h */,
+				02DADDB91CB83F7E008BC317 /* DJIUserAnnotation.m */,
+				02DADDBA1CB83F7E008BC317 /* DJIUserAnnotationView.h */,
+				02DADDBB1CB83F7E008BC317 /* DJIUserAnnotationView.m */,
+				02DADDBC1CB83F7E008BC317 /* ExternalICAOAnnotation.h */,
+				02DADDBD1CB83F7E008BC317 /* ExternalICAOAnnotation.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		02DADD0D1CB6FC72008BC317 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				02DADD8B1CB83F66008BC317 /* DJIFlightTMRightView.h */,
+				02DADD8C1CB83F66008BC317 /* DJIFlightTMRightView.m */,
+				02DADD8D1CB83F66008BC317 /* DJIFlightTMRightView.xib */,
+				02DADD8E1CB83F66008BC317 /* DJIGSCompassButton.h */,
+				02DADD8F1CB83F66008BC317 /* DJIGSCompassButton.m */,
+				02DADD901CB83F66008BC317 /* DJIGSControlsViewLeft_iPad.xib */,
+				02DADD971CB83F66008BC317 /* DJIStateButton.h */,
+				02DADD981CB83F66008BC317 /* DJIStateButton.m */,
+				02DADD991CB83F66008BC317 /* DJIUserLocationView_iPad.xib */,
+				02DADD9A1CB83F66008BC317 /* DJIUserLocationView_iPhone5.xib */,
+				02DADD9B1CB83F66008BC317 /* DJIUserLocationView.h */,
+				02DADD9C1CB83F66008BC317 /* DJIUserLocationView.m */,
+				02DADD9D1CB83F66008BC317 /* DJIBaseView.h */,
+				02DADD9E1CB83F66008BC317 /* DJIBaseView.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		02DADD111CB70021008BC317 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02DADD721CB83F3F008BC317 /* AppGlobal.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		02DADE141CB840CA008BC317 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				02B8E95C1D416587009A6368 /* ExternalDeviceManager.h */,
+				02B8E95D1D416587009A6368 /* ExternalDeviceManager.m */,
+				02DADE151CB840CA008BC317 /* DJICustomsMapView.h */,
+				02DADE161CB840CA008BC317 /* DJICustomsMapView.m */,
+				02DADE171CB840CA008BC317 /* DJIGSMapView.h */,
+				02DADE181CB840CA008BC317 /* DJIGSMapView.m */,
+				02DADE191CB840CA008BC317 /* DJIMapView.h */,
+				02DADE1A1CB840CA008BC317 /* DJIMapView.m */,
+				02DADE231CB840CA008BC317 /* MKMapView+DJI.h */,
+				02DADE241CB840CA008BC317 /* MKMapView+DJI.m */,
+			);
+			name = MapView;
+			path = FlightTrafficManagement/MapView;
+			sourceTree = "<group>";
+		};
+		02DADE351CB84DAE008BC317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02DADF001CB86D73008BC317 /* font */,
+			);
+			name = Resources;
+			path = FlightTrafficManagement/Resources;
+			sourceTree = "<group>";
+		};
+		02DADF001CB86D73008BC317 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				0250D3C71D5019EF0085C664 /* BebasNeue.otf */,
+				0250D3C81D5019EF0085C664 /* Oswald-Bold.otf */,
+				0250D3C91D5019EF0085C664 /* Oswald-Light.otf */,
+				0250D3CA1D5019EF0085C664 /* Oswald.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		3836D72F1C1104150075180B /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B821D4181C316B530014ADBD /* DJIRootViewController.h */,
+				B821D4191C316B530014ADBD /* DJIRootViewController.m */,
+				B821D41A1C316B530014ADBD /* DJIRootViewController.xib */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		3B16A8DF19D12166008C1818 = {
+			isa = PBXGroup;
+			children = (
+				3B16A8F119D12167008C1818 /* DJISdkDemo */,
+				3B16A8EA19D12167008C1818 /* Frameworks */,
+				3B16A8E919D12167008C1818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B16A8E919D12167008C1818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B16A8E819D12167008C1818 /* DJISdkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B16A8EA19D12167008C1818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B82541F81C98E8450021CDDF /* DJISDK.framework */,
+				3B628ABD1AEE0BC60079AF13 /* MapKit.framework */,
+				3B4AEB861AB848A000CF4031 /* libstdc++.6.0.9.dylib */,
+				3B16A9DC19D121C8008C1818 /* libz.dylib */,
+				3B16A8EB19D12167008C1818 /* Foundation.framework */,
+				3B16A8ED19D12167008C1818 /* CoreGraphics.framework */,
+				3B16A8EF19D12167008C1818 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B16A8F119D12167008C1818 /* DJISdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B16A8FA19D12167008C1818 /* AppDelegate.h */,
+				3B16A8FB19D12167008C1818 /* AppDelegate.m */,
+				3836D72F1C1104150075180B /* Startup */,
+				3B16A91A19D1219B008C1818 /* Demo */,
+				3B16A8FD19D12167008C1818 /* Images.xcassets */,
+				3B16A94519D1219B008C1818 /* Resource */,
+				3B16A8F219D12167008C1818 /* Supporting Files */,
+			);
+			path = DJISdkDemo;
+			sourceTree = "<group>";
+		};
+		3B16A8F219D12167008C1818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DADFDD1CB882AF008BC317 /* Localizable.strings */,
+				3B16A8F319D12167008C1818 /* DJISdkDemo-Info.plist */,
+				3B16A8F419D12167008C1818 /* InfoPlist.strings */,
+				3B16A8F719D12167008C1818 /* main.m */,
+				3B16A8F919D12167008C1818 /* DJISdkDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B16A91A19D1219B008C1818 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				02DADCDA1CB6F13F008BC317 /* FlightTrafficManagement */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		3B16A94519D1219B008C1818 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3BF0597A1BB255BD00F21C88 /* LaunchScreen.xib */,
+				3B16A94619D1219B008C1818 /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3B16A94619D1219B008C1818 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3B628AC71AEE2AF90079AF13 /* aircraft@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B16A8E719D12167008C1818 /* DJISdkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B16A91419D12167008C1818 /* Build configuration list for PBXNativeTarget "DJISdkDemo" */;
+			buildPhases = (
+				3B16A8E419D12167008C1818 /* Sources */,
+				3B16A8E519D12167008C1818 /* Frameworks */,
+				3B16A8E619D12167008C1818 /* Resources */,
+				F4FE84ED1BD8CEF600E51FB4 /* Embed Frameworks */,
+				3836D72E1C10EF3C0075180B /* Prepare DJISDK Framework for AppStore Upload */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJISdkDemo;
+			productName = DJISdkDemo;
+			productReference = 3B16A8E819D12167008C1818 /* DJISdkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B16A8E019D12166008C1818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DJI;
+				TargetAttributes = {
+					3B16A8E719D12167008C1818 = {
+						DevelopmentTeam = L2R2LB7W6Q;
+					};
+				};
+			};
+			buildConfigurationList = 3B16A8E319D12166008C1818 /* Build configuration list for PBXProject "DJISdkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B16A8DF19D12166008C1818;
+			productRefGroup = 3B16A8E919D12167008C1818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B16A8E719D12167008C1818 /* DJISdkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B16A8E619D12167008C1818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DADDA71CB83F66008BC317 /* DJIGSControlsViewLeft_iPad.xib in Resources */,
+				02DADDAC1CB83F66008BC317 /* DJIUserLocationView_iPad.xib in Resources */,
+				02DADE311CB84114008BC317 /* DJIFlightTMController_iPad.xib in Resources */,
+				0250D3CD1D5019EF0085C664 /* Oswald-Light.otf in Resources */,
+				0250D3CE1D5019EF0085C664 /* Oswald.otf in Resources */,
+				B821D41C1C316B530014ADBD /* DJIRootViewController.xib in Resources */,
+				02DADE321CB84114008BC317 /* DJIFlightTMController_iPhone5.xib in Resources */,
+				0250D3CB1D5019EF0085C664 /* BebasNeue.otf in Resources */,
+				02DADDA51CB83F66008BC317 /* DJIFlightTMRightView.xib in Resources */,
+				3B16A8F619D12167008C1818 /* InfoPlist.strings in Resources */,
+				02DADDAD1CB83F66008BC317 /* DJIUserLocationView_iPhone5.xib in Resources */,
+				02DADE331CB84114008BC317 /* DJIFlightTMController_iPhone6.xib in Resources */,
+				3BF0597B1BB255BD00F21C88 /* LaunchScreen.xib in Resources */,
+				3B628AC81AEE2AF90079AF13 /* aircraft@2x.png in Resources */,
+				02DADFDE1CB882AF008BC317 /* Localizable.strings in Resources */,
+				0250D3CC1D5019EF0085C664 /* Oswald-Bold.otf in Resources */,
+				02DADE341CB84114008BC317 /* DJIFlightTMController_iPhone6+.xib in Resources */,
+				3B16A8FE19D12167008C1818 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3836D72E1C10EF3C0075180B /* Prepare DJISDK Framework for AppStore Upload */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare DJISDK Framework for AppStore Upload";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B16A8E419D12167008C1818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DADDA41CB83F66008BC317 /* DJIFlightTMRightView.m in Sources */,
+				02DADDC31CB83F7E008BC317 /* ExternalICAOAnnotation.m in Sources */,
+				02DADDC11CB83F7E008BC317 /* DJIUserAnnotation.m in Sources */,
+				3B16A8FC19D12167008C1818 /* AppDelegate.m in Sources */,
+				02DADDBF1CB83F7E008BC317 /* DJIAnnotation.m in Sources */,
+				02DADE261CB840CA008BC317 /* DJIGSMapView.m in Sources */,
+				02DADDC01CB83F7E008BC317 /* DJIHomeAnnotation.m in Sources */,
+				02DADE251CB840CA008BC317 /* DJICustomsMapView.m in Sources */,
+				02DADDA61CB83F66008BC317 /* DJIGSCompassButton.m in Sources */,
+				02DADDF61CB84017008BC317 /* DJIFlightTMController.m in Sources */,
+				02DADDAB1CB83F66008BC317 /* DJIStateButton.m in Sources */,
+				B821D41B1C316B530014ADBD /* DJIRootViewController.m in Sources */,
+				02DADDAE1CB83F66008BC317 /* DJIUserLocationView.m in Sources */,
+				02DADDBE1CB83F7E008BC317 /* DJIAircraftAnnotation.m in Sources */,
+				02DADE271CB840CA008BC317 /* DJIMapView.m in Sources */,
+				02DADDC21CB83F7E008BC317 /* DJIUserAnnotationView.m in Sources */,
+				02DADDAF1CB83F66008BC317 /* DJIBaseView.m in Sources */,
+				3B16A8F819D12167008C1818 /* main.m in Sources */,
+				02DADE2C1CB840CA008BC317 /* MKMapView+DJI.m in Sources */,
+				02B8E95E1D416587009A6368 /* ExternalDeviceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B16A8F419D12167008C1818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B16A8F519D12167008C1818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B16A91219D12167008C1818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B16A91319D12167008C1818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B16A91519D12167008C1818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJISdkDemo/DJISdkDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/VideoPreviewer/ffmpeg/include\"",
+					"\"$(SRCROOT)/VideoPreviewer/DJIH264Decoder/include\"",
+					"\"$(SRCROOT)/VideoPreviewer/Lb2AUDHack/\"",
+					"\"$(SRCROOT)/VideoPreviewer/\"",
+				);
+				INFOPLIST_FILE = "DJISdkDemo/DJISdkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.pingdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B16A91619D12167008C1818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DJISdkDemo/DJISdkDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "DJISdkDemo/DJISdkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.pingdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B16A8E319D12166008C1818 /* Build configuration list for PBXProject "DJISdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B16A91219D12167008C1818 /* Debug */,
+				3B16A91319D12167008C1818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B16A91419D12167008C1818 /* Build configuration list for PBXNativeTarget "DJISdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B16A91519D12167008C1818 /* Debug */,
+				3B16A91619D12167008C1818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B16A8E019D12166008C1818 /* Project object */;
+}

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DJIGSControlsViewLeft">
+            <connections>
+                <outlet property="addPointsBackButton" destination="lma-f3-ino" id="3Wf-vi-xdr"/>
+                <outlet property="addPointsButton" destination="ccp-D8-EdJ" id="H1X-4A-xOc"/>
+                <outlet property="addPointsMenuView" destination="Pr5-YA-UIT" id="64p-Fk-ehr"/>
+                <outlet property="addTemplateButton" destination="Wof-Tb-tbr" id="luz-WH-p4g"/>
+                <outlet property="airDropButton" destination="uNA-j4-j3J" id="WU0-qo-qJt"/>
+                <outlet property="goHomeButton" destination="0qC-A2-KUJ" id="Y1l-vL-Xut"/>
+                <outlet property="landButton" destination="leZ-DI-b3X" id="whw-JG-uO9"/>
+                <outlet property="leftMenuView" destination="vlm-AK-nqV" id="Ne1-WA-xLW"/>
+                <outlet property="locateButton" destination="RPe-Jr-J34" id="Yu4-iv-CYr"/>
+                <outlet property="locateHomeButton" destination="l6M-j3-HI8" id="d5V-4O-eRN"/>
+                <outlet property="locateMenuView" destination="gIA-dh-Tah" id="I1y-ow-Zen"/>
+                <outlet property="locatePlaneButton" destination="Wno-e2-req" id="WnQ-1X-R0B"/>
+                <outlet property="moreButton" destination="Gvf-g0-wYO" id="GTI-ds-aXD"/>
+                <outlet property="paintToAddButton" destination="5oN-2T-lgg" id="lNh-jb-Rdu"/>
+                <outlet property="tapToAddButton" destination="Ff6-vg-ayK" id="2Ih-Am-58u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="379"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlm-AK-nqV" userLabel="左侧一级菜单">
+                    <rect key="frame" x="0.0" y="10" width="49" height="369"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs_left_menu_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="dtO-Sb-4Be">
+                            <rect key="frame" x="0.0" y="0.0" width="49" height="369"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPe-Jr-J34" userLabel="Locate">
+                            <rect key="frame" x="0.0" y="0.0" width="49" height="73"/>
+                            <state key="normal" backgroundImage="gs_locate_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccp-D8-EdJ" userLabel="Add Points">
+                            <rect key="frame" x="0.0" y="73" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_add_points_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qC-A2-KUJ" userLabel="Go Home">
+                            <rect key="frame" x="0.0" y="147" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_go_home_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leZ-DI-b3X" userLabel="Land">
+                            <rect key="frame" x="0.0" y="221" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_land_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvf-g0-wYO" userLabel="More">
+                            <rect key="frame" x="0.0" y="295" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_more_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Gvf-g0-wYO" firstAttribute="left" secondItem="leZ-DI-b3X" secondAttribute="left" id="3a6-FT-h5y"/>
+                        <constraint firstItem="Gvf-g0-wYO" firstAttribute="height" secondItem="leZ-DI-b3X" secondAttribute="height" id="8TW-ia-dzX"/>
+                        <constraint firstItem="ccp-D8-EdJ" firstAttribute="top" secondItem="RPe-Jr-J34" secondAttribute="bottom" id="9xE-Cp-hrY"/>
+                        <constraint firstItem="ccp-D8-EdJ" firstAttribute="left" secondItem="0qC-A2-KUJ" secondAttribute="left" id="Ac2-Ax-3CA"/>
+                        <constraint firstItem="RPe-Jr-J34" firstAttribute="left" secondItem="ccp-D8-EdJ" secondAttribute="left" id="CaW-Gv-aF8"/>
+                        <constraint firstItem="RPe-Jr-J34" firstAttribute="height" secondItem="ccp-D8-EdJ" secondAttribute="height" constant="-1" id="GhM-X1-y8J"/>
+                        <constraint firstItem="0qC-A2-KUJ" firstAttribute="left" secondItem="leZ-DI-b3X" secondAttribute="left" id="JAr-1A-EBI"/>
+                        <constraint firstItem="0qC-A2-KUJ" firstAttribute="right" secondItem="leZ-DI-b3X" secondAttribute="right" id="JPP-nP-MG9"/>
+                        <constraint firstAttribute="height" constant="369" id="KHc-OE-DIE"/>
+                        <constraint firstItem="Gvf-g0-wYO" firstAttribute="right" secondItem="leZ-DI-b3X" secondAttribute="right" id="OxI-We-Ydi"/>
+                        <constraint firstItem="RPe-Jr-J34" firstAttribute="right" secondItem="ccp-D8-EdJ" secondAttribute="right" id="Wqj-GK-yNW"/>
+                        <constraint firstItem="leZ-DI-b3X" firstAttribute="top" secondItem="0qC-A2-KUJ" secondAttribute="bottom" id="bNP-lv-MIw"/>
+                        <constraint firstItem="dtO-Sb-4Be" firstAttribute="top" secondItem="vlm-AK-nqV" secondAttribute="top" id="dfj-f1-kem"/>
+                        <constraint firstItem="Gvf-g0-wYO" firstAttribute="top" secondItem="leZ-DI-b3X" secondAttribute="bottom" id="eNN-he-WGj"/>
+                        <constraint firstAttribute="right" secondItem="dtO-Sb-4Be" secondAttribute="right" id="eSM-zM-qCK"/>
+                        <constraint firstItem="dtO-Sb-4Be" firstAttribute="left" secondItem="vlm-AK-nqV" secondAttribute="left" id="eaC-22-qON"/>
+                        <constraint firstItem="ccp-D8-EdJ" firstAttribute="right" secondItem="0qC-A2-KUJ" secondAttribute="right" id="efz-yW-Pky"/>
+                        <constraint firstItem="RPe-Jr-J34" firstAttribute="top" secondItem="vlm-AK-nqV" secondAttribute="top" id="fWo-Oy-dno"/>
+                        <constraint firstAttribute="bottom" secondItem="Gvf-g0-wYO" secondAttribute="bottom" id="fq6-5H-0yY"/>
+                        <constraint firstItem="RPe-Jr-J34" firstAttribute="left" secondItem="vlm-AK-nqV" secondAttribute="left" id="hyP-NR-vra"/>
+                        <constraint firstAttribute="right" secondItem="RPe-Jr-J34" secondAttribute="right" id="pb1-lb-OID"/>
+                        <constraint firstAttribute="bottom" secondItem="dtO-Sb-4Be" secondAttribute="bottom" id="q4r-hf-qb5"/>
+                        <constraint firstItem="0qC-A2-KUJ" firstAttribute="height" secondItem="leZ-DI-b3X" secondAttribute="height" id="vCD-yQ-EhS"/>
+                        <constraint firstItem="ccp-D8-EdJ" firstAttribute="height" secondItem="0qC-A2-KUJ" secondAttribute="height" id="yrc-i8-jQk"/>
+                        <constraint firstAttribute="width" constant="49" id="zpy-zO-4to"/>
+                        <constraint firstItem="0qC-A2-KUJ" firstAttribute="top" secondItem="ccp-D8-EdJ" secondAttribute="bottom" id="zzE-8I-9Qg"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIA-dh-Tah" userLabel="左侧定位二级菜单">
+                    <rect key="frame" x="59" y="0.0" width="62" height="99"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs_locate_menu_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRE-ha-mzp">
+                            <rect key="frame" x="0.0" y="0.0" width="62" height="99"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wno-e2-req" userLabel="Plane">
+                            <rect key="frame" x="0.0" y="0.0" width="62" height="49"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="I1x-j8-0fF"/>
+                                <constraint firstAttribute="width" constant="62" id="Tg7-fj-twF"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="gs_locate_plane_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6M-j3-HI8" userLabel="Home">
+                            <rect key="frame" x="0.0" y="50" width="62" height="49"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="V0C-R7-rOE"/>
+                                <constraint firstAttribute="width" constant="62" id="lKI-J9-eVc"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="gs_locate_home_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="99" id="6dC-0h-uxj"/>
+                        <constraint firstItem="YRE-ha-mzp" firstAttribute="left" secondItem="gIA-dh-Tah" secondAttribute="left" id="6ji-fH-EfK"/>
+                        <constraint firstAttribute="width" constant="62" id="JpE-wY-Doa"/>
+                        <constraint firstItem="l6M-j3-HI8" firstAttribute="left" secondItem="gIA-dh-Tah" secondAttribute="left" id="KJG-W2-eef"/>
+                        <constraint firstItem="Wno-e2-req" firstAttribute="left" secondItem="gIA-dh-Tah" secondAttribute="left" id="h8D-EC-DKe"/>
+                        <constraint firstItem="Wno-e2-req" firstAttribute="top" secondItem="gIA-dh-Tah" secondAttribute="top" id="tbs-an-r5h"/>
+                        <constraint firstAttribute="bottom" secondItem="YRE-ha-mzp" secondAttribute="bottom" id="wUV-32-L62"/>
+                        <constraint firstAttribute="bottom" secondItem="l6M-j3-HI8" secondAttribute="bottom" id="wzF-dk-hki"/>
+                        <constraint firstItem="YRE-ha-mzp" firstAttribute="top" secondItem="gIA-dh-Tah" secondAttribute="top" id="x0i-aQ-ieL"/>
+                        <constraint firstAttribute="right" secondItem="YRE-ha-mzp" secondAttribute="right" id="xyf-Nz-IWH"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pr5-YA-UIT" userLabel="左侧打点二级菜单">
+                    <rect key="frame" x="0.0" y="10" width="49" height="369"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gs_left_menu_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="5cz-ig-gP8">
+                            <rect key="frame" x="0.0" y="0.0" width="49" height="369"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lma-f3-ino" userLabel="Back">
+                            <rect key="frame" x="0.0" y="0.0" width="49" height="73"/>
+                            <state key="normal" backgroundImage="gs_back_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-vg-ayK" userLabel="Tap">
+                            <rect key="frame" x="0.0" y="73" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_tap_to_add_points_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="gs_tap_to_add_points_button_highlighted.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oN-2T-lgg" userLabel="Hand Painted">
+                            <rect key="frame" x="0.0" y="147" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_paint_to_add_points_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="gs_paint_to_add_points_button_highlighted.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNA-j4-j3J" userLabel="Air Drop">
+                            <rect key="frame" x="0.0" y="221" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_air_drop_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wof-Tb-tbr" userLabel="Add Template">
+                            <rect key="frame" x="0.0" y="295" width="49" height="74"/>
+                            <state key="normal" backgroundImage="gs_add_template_button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Wof-Tb-tbr" firstAttribute="left" secondItem="uNA-j4-j3J" secondAttribute="left" id="2nK-If-SDe"/>
+                        <constraint firstItem="uNA-j4-j3J" firstAttribute="top" secondItem="5oN-2T-lgg" secondAttribute="bottom" id="3Mp-ed-hyw"/>
+                        <constraint firstAttribute="bottom" secondItem="5cz-ig-gP8" secondAttribute="bottom" id="5oE-ob-R0J"/>
+                        <constraint firstAttribute="bottom" secondItem="Wof-Tb-tbr" secondAttribute="bottom" id="CO1-0f-Bu0"/>
+                        <constraint firstAttribute="width" constant="49" id="EpZ-Yj-gm6"/>
+                        <constraint firstItem="Wof-Tb-tbr" firstAttribute="top" secondItem="uNA-j4-j3J" secondAttribute="bottom" id="GQN-rf-Tud"/>
+                        <constraint firstItem="Wof-Tb-tbr" firstAttribute="height" secondItem="uNA-j4-j3J" secondAttribute="height" id="LLM-lU-IMy"/>
+                        <constraint firstItem="Ff6-vg-ayK" firstAttribute="left" secondItem="5oN-2T-lgg" secondAttribute="left" id="LcJ-XL-22Z"/>
+                        <constraint firstItem="lma-f3-ino" firstAttribute="right" secondItem="Ff6-vg-ayK" secondAttribute="right" id="Ocy-KY-HwD"/>
+                        <constraint firstItem="Ff6-vg-ayK" firstAttribute="top" secondItem="lma-f3-ino" secondAttribute="bottom" id="PQp-F6-xHa"/>
+                        <constraint firstItem="lma-f3-ino" firstAttribute="height" secondItem="Ff6-vg-ayK" secondAttribute="height" constant="-1" id="TRT-Yi-q9Y"/>
+                        <constraint firstItem="5oN-2T-lgg" firstAttribute="top" secondItem="Ff6-vg-ayK" secondAttribute="bottom" id="US1-SB-R8c"/>
+                        <constraint firstAttribute="height" constant="369" id="Vkm-pj-MD6"/>
+                        <constraint firstItem="lma-f3-ino" firstAttribute="left" secondItem="Ff6-vg-ayK" secondAttribute="left" id="aIa-7D-XbC"/>
+                        <constraint firstItem="Wof-Tb-tbr" firstAttribute="right" secondItem="uNA-j4-j3J" secondAttribute="right" id="aaA-AO-oVs"/>
+                        <constraint firstItem="lma-f3-ino" firstAttribute="left" secondItem="Pr5-YA-UIT" secondAttribute="left" id="aaH-bg-vHg"/>
+                        <constraint firstItem="5oN-2T-lgg" firstAttribute="left" secondItem="uNA-j4-j3J" secondAttribute="left" id="beJ-IK-3mo"/>
+                        <constraint firstItem="Ff6-vg-ayK" firstAttribute="right" secondItem="5oN-2T-lgg" secondAttribute="right" id="dU2-iy-Nhx"/>
+                        <constraint firstItem="5oN-2T-lgg" firstAttribute="height" secondItem="uNA-j4-j3J" secondAttribute="height" id="h4r-ms-xGZ"/>
+                        <constraint firstAttribute="right" secondItem="lma-f3-ino" secondAttribute="right" id="mjB-RC-tCi"/>
+                        <constraint firstItem="5oN-2T-lgg" firstAttribute="right" secondItem="uNA-j4-j3J" secondAttribute="right" id="ooy-E5-7Gf"/>
+                        <constraint firstItem="5cz-ig-gP8" firstAttribute="top" secondItem="Pr5-YA-UIT" secondAttribute="top" id="uqW-k6-m7w"/>
+                        <constraint firstItem="Ff6-vg-ayK" firstAttribute="height" secondItem="5oN-2T-lgg" secondAttribute="height" id="x2r-3N-agl"/>
+                        <constraint firstItem="lma-f3-ino" firstAttribute="top" secondItem="Pr5-YA-UIT" secondAttribute="top" id="xG8-6L-V1t"/>
+                        <constraint firstAttribute="right" secondItem="5cz-ig-gP8" secondAttribute="right" id="xNt-13-CSu"/>
+                        <constraint firstItem="5cz-ig-gP8" firstAttribute="left" secondItem="Pr5-YA-UIT" secondAttribute="left" id="yyN-fu-vSs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vlm-AK-nqV" firstAttribute="left" secondItem="iN0-l3-epB" secondAttribute="left" id="4kc-nC-gDg"/>
+                <constraint firstItem="vlm-AK-nqV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="9Hm-Up-XM1"/>
+                <constraint firstItem="Pr5-YA-UIT" firstAttribute="top" secondItem="vlm-AK-nqV" secondAttribute="top" id="BpV-54-FgF"/>
+                <constraint firstItem="Pr5-YA-UIT" firstAttribute="left" secondItem="vlm-AK-nqV" secondAttribute="left" id="FOx-gq-B2j"/>
+                <constraint firstItem="vlm-AK-nqV" firstAttribute="top" secondItem="gIA-dh-Tah" secondAttribute="top" constant="10" id="aon-PM-ylI"/>
+                <constraint firstItem="gIA-dh-Tah" firstAttribute="left" secondItem="vlm-AK-nqV" secondAttribute="right" constant="10" id="lnD-3O-zzP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="315" y="373.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gs_add_points_button.png" width="49" height="73"/>
+        <image name="gs_add_template_button.png" width="49" height="73"/>
+        <image name="gs_air_drop_button.png" width="49" height="73"/>
+        <image name="gs_back_button.png" width="49" height="73"/>
+        <image name="gs_go_home_button.png" width="49" height="73"/>
+        <image name="gs_land_button.png" width="49" height="73"/>
+        <image name="gs_left_menu_background.png" width="49" height="369"/>
+        <image name="gs_locate_button.png" width="49" height="73"/>
+        <image name="gs_locate_home_button.png" width="62" height="49"/>
+        <image name="gs_locate_menu_background.png" width="62" height="99"/>
+        <image name="gs_locate_plane_button.png" width="62" height="49"/>
+        <image name="gs_more_button.png" width="49" height="73"/>
+        <image name="gs_paint_to_add_points_button.png" width="49" height="73"/>
+        <image name="gs_paint_to_add_points_button_highlighted.png" width="49" height="73"/>
+        <image name="gs_tap_to_add_points_button.png" width="49" height="73"/>
+        <image name="gs_tap_to_add_points_button_highlighted.png" width="49" height="73"/>
+    </resources>
+</document>
